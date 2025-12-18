@@ -69,9 +69,9 @@ Nutriscan_Project/
 │   ├── charts.py      # Visualisations Plotly
 │   └── chatbot.py     # Intégration LiteLLM + Groq
 ├── data/
-│   └── processed/     # Données pré-traitées (optionnel)
+│   └── processed/     # Données pré-traitées 
 │       └── .gitkeep
-└── notebooks/         # Exploration et prototypage (optionnel)
+└── notebooks/         # Exploration et prototypage 
 ```
 
 ## 🔗 Liens
@@ -80,7 +80,8 @@ Nutriscan_Project/
 
 ## 👥 Équipe
 
-- À renseigner
+- Aymane HAJLI
+- Farah MEHANNEK
 
 ## 📄 Licence
 
