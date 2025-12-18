@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nutriscan"
+version = "0.1.0"
+description = "NutriScan — Assistant nutrition intelligent basé sur Open Data et IA"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "IPSSI Team", email = "example@example.com" }
+]
+dependencies = [
+  "streamlit>=1.39.0",
+  "pandas>=2.2.0",
+  "plotly>=5.24.0",
+  "requests>=2.32.0",
+  "python-dotenv>=1.0.1",
+  "litellm>=1.52.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "jupyterlab>=4.2.0",
+]
+
+[tool.uv]
+package = true
+
+[tool.uv.sources]
+
+[tool.setuptools]
+packages = ["utils"]
+
+
+

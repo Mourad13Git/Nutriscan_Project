@@ -1,0 +1,46 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environnement virtuel
+.env
+.venv/
+.uv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Données
+data/processed/*
+!data/processed/.gitkeep
+
+# Logs
+*.log
+
+# Fichiers de présentation (non inclus dans le repo)
+PRESENTATION_*.md
+REPARTITION_*.md
+
+
